@@ -1,9 +1,9 @@
-package com.project.onoff.domain.member.domain.application;
+package com.project.onoff.domain.member.application;
 
 import com.project.onoff.domain.member.domain.Member;
-import com.project.onoff.domain.member.domain.dto.request.MemberRequest.CreateMemberRequest;
-import com.project.onoff.domain.member.domain.dto.response.MemberResponse.MemberListResponse;
-import com.project.onoff.domain.member.domain.repository.MemberRepository;
+import com.project.onoff.domain.member.dto.request.MemberRequest.CreateMemberRequest;
+import com.project.onoff.domain.member.dto.response.MemberResponse.MemberListResponse;
+import com.project.onoff.domain.member.repository.MemberRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,8 +1,8 @@
-package com.project.onoff.domain.member.domain.api;
+package com.project.onoff.domain.member.api;
 
-import com.project.onoff.domain.member.domain.application.MemberService;
-import com.project.onoff.domain.member.domain.dto.request.MemberRequest.CreateMemberRequest;
-import com.project.onoff.domain.member.domain.dto.response.MemberResponse.MemberListResponse;
+import com.project.onoff.domain.member.application.MemberService;
+import com.project.onoff.domain.member.dto.request.MemberRequest.CreateMemberRequest;
+import com.project.onoff.domain.member.dto.response.MemberResponse.MemberListResponse;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

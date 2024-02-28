@@ -1,4 +1,4 @@
-package com.project.onoff.domain.member.domain.repository;
+package com.project.onoff.domain.member.repository;
 
 import com.project.onoff.domain.member.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;

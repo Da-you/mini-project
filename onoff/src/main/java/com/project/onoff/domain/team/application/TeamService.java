@@ -1,7 +1,7 @@
 package com.project.onoff.domain.team.application;
 
 import com.project.onoff.domain.member.domain.Member;
-import com.project.onoff.domain.member.domain.repository.MemberRepository;
+import com.project.onoff.domain.member.repository.MemberRepository;
 import com.project.onoff.domain.team.domain.Team;
 import com.project.onoff.domain.team.dto.request.TeamRequest.AddTeamMemberRequest;
 import com.project.onoff.domain.team.dto.request.TeamRequest.CreateTeamRequest;
